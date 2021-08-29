@@ -44,7 +44,3 @@ This tiny hardware and software project was the result.*
 
 ![LCD_03](https://user-images.githubusercontent.com/88629497/131263840-388d4b19-04d7-47f2-a3be-433c8e06c6d0.jpg)
 
-
-Dies hier ist mein**erstes Projekt**, um *GitHub* auszuprobieren.
-
-
