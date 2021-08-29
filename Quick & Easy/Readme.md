@@ -1,10 +1,17 @@
-## Schnell & Einfach
+## Schnell & Einfach / Quick and Easy
 
-Wer wenig Programmiererfahrung hat oder mal eben schnell das Projekt realisieren möchte, kann die Schaltung sehe einfach nachbauen.
+Wer wenig Programmiererfahrung hat oder mal eben schnell das Projekt realisieren möchte, kann die Schaltung sehr einfach nachbauen.
 Dazu einfach die benötigten elektronischen Bauteile besorgen und die Schaltung auf einem Steckbrett oder einer Lochrasterplatine aufbauen.
 Den ESP8266 per USB-Kabel an einen PC anschließen und die akzuelle .bin Datei hochladen.
 Danach die persönlichen Einstellungen vornehmen.
 FERTIG! :smiley:
+<br>
+<br>
+If you have little programming experience or just want to realize the project quickly, you can build the circuit very easily.
+Just get the needed electronic components and build the circuit on a breadboard.
+Connect the ESP8266 via USB cable to a PC and upload the current .bin file.
+Then make your personal settings.
+DONE! :smiley:
 <br>
 <br>
 
