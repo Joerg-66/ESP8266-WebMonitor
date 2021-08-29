@@ -5,6 +5,7 @@ Bei Problemen in Videokonferenzen wollte ich der Ursache auf den Grund gehen und
 Zwar hatte mein derzeitiger Router, eine Fritz!Box 7490, eine Übersicht darüber auf einer internen Website aber ich wollte die Informationen unabhängig vom Browser angezeigt bekommen.
 Die Idee war es einen ESP8266 Controller per WLAN an den Router zu koppeln und die benötigten Informationen per TR-064 Protokoll auszulesen.
 Daraus ist diese kleine Hard- und Softwareprojekt hervorgegangen.
+<br>
 
 *In the first Covid-19 lockdown 2020 in Germany, I had a very slow Internet access and was temporarily in the home office.
 With problems in video conferences, I wanted to know the root of the cause and know what the current network load to the Internet was.
@@ -39,7 +40,7 @@ This tiny hardware and software project was the result.*
 * Upload overview of the last minutes
 * max. download bandwidth
 * current download rate
-* download overview of the last minutes*
+* download overview of the last minutes
 <br>
 
 ![LCD_03](https://user-images.githubusercontent.com/88629497/131263840-388d4b19-04d7-47f2-a3be-433c8e06c6d0.jpg)
