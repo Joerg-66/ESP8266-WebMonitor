@@ -11,6 +11,38 @@ With problems in video conferences, I wanted to know the root of the cause and k
 Although my current router, a Fritz!Box 7490, had an overview of this on an internal website, I wanted to have the information displayed independently of the browser.
 The idea was to connect an ESP8266 controller via wifi to the router and read out the needed information via TR-064 protocol.
 This tiny hardware and software project was the result.*
+<br>
+<br>
+<br>
+![Board_02](https://user-images.githubusercontent.com/88629497/131263851-c4c651b0-937a-43f5-a703-0f1527c2069a.jpg)
+<br>
+<br>
+
+## Ziele
+
+* Überprüfung ob die Internetverbindung steht
+* WLAN Verfügbarkeit
+* Erkennung ob ein Gastzugang aktiv ist
+* max. Upload Bandbreite
+* aktuelle Upload Rate
+* Upload Überblick der letzten Minuten
+* max. Download Bandbreite
+* aktuelle Download Rate
+* Download Überblick der letzten Minuten
+
+## Goals
+* Check if the internet connection is up
+* wifi availability
+* detection if guest access is active
+* max. upload bandwidth
+* current upload rate
+* Upload overview of the last minutes
+* max. download bandwidth
+* current download rate
+* download overview of the last minutes*
+<br>
+
+![LCD_03](https://user-images.githubusercontent.com/88629497/131263840-388d4b19-04d7-47f2-a3be-433c8e06c6d0.jpg)
 
 
 Dies hier ist mein**erstes Projekt**, um *GitHub* auszuprobieren.
