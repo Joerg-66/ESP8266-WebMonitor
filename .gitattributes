@@ -1,2 +1,2 @@
 *.html linguist-detectable=false
-cpp
+*.cpp linguist-detectable=true
