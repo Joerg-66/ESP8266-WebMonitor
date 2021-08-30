@@ -4,7 +4,7 @@ Im ersten Covid-19 Lockdown 2020 in Deutschland hatte ich einen sehr langsamen I
 Bei Problemen in Videokonferenzen wollte ich der Ursache auf den Grund gehen und wissen wie die aktuelle Netzwerklast zum Internet war.
 Zwar hatte mein derzeitiger Router, eine Fritz!Box 7490, eine Übersicht darüber auf einer internen Website aber ich wollte die Informationen unabhängig vom Browser angezeigt bekommen.
 Die Idee war es einen ESP8266 Controller per WLAN an den Router zu koppeln und die benötigten Informationen per TR-064 Protokoll auszulesen.
-Daraus ist diese kleine Hard- und Softwareprojekt hervorgegangen.
+Daraus ist dieses kleine Hard- und Softwareprojekt hervorgegangen.
 <br>
 
 *In the first Covid-19 lockdown 2020 in Germany, I had a very slow Internet access and was temporarily in the home office.
