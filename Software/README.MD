@@ -26,7 +26,7 @@ Jetzt ist in der Arduino IDE das Board "LOLIN(WEMOS) D1 R2 & mini" verfügbar un
 Alle Werte behalten die Default Werte. Die Flash Size ist "4MB (FS:2MB OTA:~1019KB)"
 
 Jetzt kann das Verzeichnis "WebMonitor_1-3" (siehe oben auf der Website) inklusive aller enthaltenen Dateien auf den lokalen Rechner kopiert werden.
-Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266, kann der Qouellcode kompiliert und in den Mikrocontroller geschrieben werden.
+Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266, kann der Quellcode kompiliert und in den Mikrocontroller geschrieben werden.
 
 
 
