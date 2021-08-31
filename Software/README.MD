@@ -22,8 +22,14 @@ Nun kann in der Arduino IDE über den Boardverwalter das "ESP Community" Packet 
 ESP8266 Community		(Version 2.7.4)
 ACHTUNG! Aktuell muss das etwas ältere Paket wählen. Die Pakete Version 3.x.x verursachen einen Konflikt mit der TR-064-SOAP-Library.
 
-Nun kann in der Arduino IDE das Board "LOLIN(WEMOS) D1 R2 & mini" ausgewählt werden.
+Jetzt ist in der Arduino IDE das Board "LOLIN(WEMOS) D1 R2 & mini" verfügbar und kann ausgewählt werden.
 Alle Werte behalten die Default Werte. Die Flash Size ist "4MB (FS:2MB OTA:~1019KB)"
+
+
+
+
+Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266 verbunden werden 
+
 
 
 
