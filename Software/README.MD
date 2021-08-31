@@ -33,7 +33,7 @@ Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266, kann der Que
 Das Hauptprogramm befindet sich in der Arduino Datei "WebMonitor_1-3.ino"
 Die Dateien "ESP_Settings.h" und "ESP_Settings.cpp" stellen die ESP8266 Website dar und steuern die Konfiguration im ESP8266 internen EEPROM.
 Die Dateien "ILI9341_Graphic.h" und "ILI9341_Graphic.cpp" steuern die grafische Darstellung auf dem LC-Display.
-Die Dateien "TR064_Quh" und "TR064_Query" beinhalten die Kommunikationsroutinen zur Steuerung der Bibliothek "TR-064-SOAP-Library".
+Die Dateien "TR064_Query.h" und "TR064_Query.cpp" beinhalten die Kommunikationsroutinen zur Steuerung der Bibliothek "TR-064-SOAP-Library".
 
 
 ## Funktion
@@ -95,7 +95,7 @@ If you now connect the PC to the ESP8266 via a micro USB cable, the source code 
 The main program is located in the Arduino file "WebMonitor_1-3.ino".
 The files "ESP_Settings.h" and "ESP_Settings.cpp" represent the ESP8266 website and control the configuration in the ESP8266 internal EEPROM.
 The files "ILI9341_Graphic.h" and "ILI9341_Graphic.cpp" control the graphical representation on the LC display.
-The files "TR064_Quh" and "TR064_Query" contain the communication routines to control the library "TR-064-SOAP-Library".
+The files "TR064_Query.h" and "TR064_Query.cpp" contain the communication routines to control the library "TR-064-SOAP-Library".
 
 
 ## Function
