@@ -1,7 +1,7 @@
 # Software
 ## Die Entwicklungsumgebung
 
-Lade und installiere von der Seite https://www.arduino.cc/die Software Arduino (Version 1.8.15)
+Lade und installiere von der Seite https://www.arduino.cc die Software Arduino (Version 1.8.15)
 
 Istalliere die folgenden Arduino Bibliotheken:
 * Adafruit GFX Library	(Version 1.10.10)
@@ -28,7 +28,7 @@ Alle Werte behalten die Default Werte. Die Flash Size ist "4MB (FS:2MB OTA:~1019
 
 
 
-Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266 verbunden werden 
+Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266 
 
 
 
