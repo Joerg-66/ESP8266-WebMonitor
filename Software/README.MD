@@ -33,7 +33,7 @@ Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266, kann der Que
 Der LCD Monitor zeigt die Verbindung zum WLAN vom Router und die Internet Verbindung an.
 Ein wandernder Punkt zeigt dabei an, dass die Kommunikation zum Router läuft und sich nicht aufgehängt hat.
 Bei Problemen wird der Teil der nicht erreichbar ist grau und ein Blitz-Symbol zeigt den vermuteten Ort des Problems an.
-Wenn ein Gastzugang geöffnet ist, wird neben dem Router ein Symbol mit zwei Spielfiguren angezeigt.
+Wenn ein Gastzugang geöffnet ist, wird neben dem Router ein Symbol mit zwei symbolisierten Personen angezeigt.
 Es gibt zwei Gitternetze, die den Upload (oben - Cyan) und Download (unten - grün) grafisch über den Zeitverlauf (nicht justiert) anzeigen.
 Die Werte rechts neben den Gitternetze zeigen je nach Konfiguration die maximale eingestellte oder reale Bandbreite.
 Zusätzlich wird die aktuelle Up- bzw. Download- Geschwindigkeit angezeigt.
