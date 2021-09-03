@@ -20,7 +20,7 @@ In der Arduino IDE unter "Voreinstellungen" im Feld "Zusätzliche Boardverwalter
 
 Nun kann in der Arduino IDE über den Boardverwalter das "ESP Community" Packet installiert weden:
 ESP8266 Community		(Version 2.7.4)
-ACHTUNG! Aktuell muss das etwas ältere Paket wählen. Die Pakete Version 3.x.x verursachen einen Konflikt mit der TR-064-SOAP-Library.
+***ACHTUNG! Aktuell muss das etwas ältere Paket wählen. Die Pakete Version 3.x.x verursachen einen Konflikt mit der TR-064-SOAP-Library.***
 
 Jetzt ist in der Arduino IDE das Board "LOLIN(WEMOS) D1 R2 & mini" verfügbar und kann ausgewählt werden.
 Alle Werte behalten die Default Werte. Die Flash Size ist "4MB (FS:2MB OTA:~1019KB)"
@@ -65,8 +65,13 @@ Es sollten aber auch weitere Modelle des Herstellers funktionieren.
 <br>
 
 ![grafik](https://user-images.githubusercontent.com/88629497/132059430-e62f5a19-c777-447f-8e63-0b5fd90355f9.png)
+<br>
+
+### *Zu den Einstellungen der Nutzerdaten und in der Fritz!Box siehe Verzeichnis "Quick and Easy"*
 
 <br>
+<br>
+=======================================================================================
 <br>
 <br>
 
@@ -93,7 +98,7 @@ In the Arduino IDE under "Preferences" in the field "Additional board manager UR
 
 Now you can install the "ESP Community" package in the Arduino IDE via the board manager:
 ESP8266 Community (Version 2.7.4)
-ATTENTION: Currently you have to choose the older package. The packages version 3.x.x cause a conflict with the TR-064-SOAP-Library.
+***ATTENTION: Currently you have to choose the older package. The packages version 3.x.x cause a conflict with the TR-064-SOAP-Library.***
 
 Now the board "LOLIN(WEMOS) D1 R2 & mini" is available in the Arduino IDE and can be selected.
 All values keep the default values. The Flash Size is "4MB (FS:2MB OTA:~1019KB)".
@@ -138,7 +143,9 @@ However, other models from the manufacturer should also work.
 <br>
 
 ![grafik](https://user-images.githubusercontent.com/88629497/132061516-9ecd5f64-15d9-4938-a7a9-96ab74c1db56.png)
+<br>
 
+### *For the settings of the user data and in the Fritz!Box, see directory "Quick and Easy"*
 
 
 
