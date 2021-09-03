@@ -28,6 +28,7 @@ Alle Werte behalten die Default Werte. Die Flash Size ist "4MB (FS:2MB OTA:~1019
 Jetzt kann das Verzeichnis "WebMonitor_1-3" (siehe oben auf der Website) inklusive aller enthaltenen Dateien auf den lokalen Rechner kopiert werden.
 Verbindet man nun den PC über ein Micro-USB Kabel mit dem ESP8266, kann der Quellcode kompiliert und in den Mikrocontroller geschrieben werden.
 
+<br>
 
 ## Quellcode
 Das Hauptprogramm befindet sich in der Arduino Datei "WebMonitor_1-3.ino"
@@ -35,6 +36,19 @@ Die Dateien "ESP_Settings.h" und "ESP_Settings.cpp" stellen die ESP8266 Website 
 Die Dateien "ILI9341_Graphic.h" und "ILI9341_Graphic.cpp" steuern die grafische Darstellung auf dem LC-Display.
 Die Dateien "TR064_Query.h" und "TR064_Query.cpp" beinhalten die Kommunikationsroutinen zur Steuerung der Bibliothek "TR-064-SOAP-Library".
 
+Im Quellcode gibt es die Schwierigkeit, dass im Arduino Compiler die TR-064 Instanz erstellt werden muss bevor die Einstellungen aus dem EEPROM ausgelesen werden können.
+Deshalb wird zu Beginn eine Default-Instanz gebildet:
+* TR064_Query TR_064 = TR064_Query(49000, "192.168.178.254", "admin", "");
+
+Zur Laufzeit wird die Instanz gelöscht... 
+* TR_064.~TR064_Query();
+
+... und mit den EEPROM Daten wieder neu instanziert:
+* new(&TR_064) TR064_Query(49000, sRouterIP, sTR064_User, sTR064_Password);
+
+Dies funktioniert leider nicht unter VS-Code unter PlatformIO. Hier ist mir noch keine Lösung gelungen.
+
+<br>
 
 ## Funktion
 Der LCD Monitor zeigt die Verbindung zum WLAN vom Router und die Internet Verbindung an.
@@ -49,8 +63,6 @@ Zusätzlich wird die aktuelle Up- bzw. Download- Geschwindigkeit angezeigt.
 
 ![grafik](https://user-images.githubusercontent.com/88629497/132059430-e62f5a19-c777-447f-8e63-0b5fd90355f9.png)
 
-<br>
-<br>
 <br>
 <br>
 <br>
@@ -86,6 +98,7 @@ All values keep the default values. The Flash Size is "4MB (FS:2MB OTA:~1019KB)"
 Now the directory "WebMonitor_1-3" (see above on the website) including all contained files can be copied to the local computer.
 If you now connect the PC to the ESP8266 via a micro USB cable, the source code can be compiled and written to the microcontroller.
 
+<br>
 
 ## Source code
 The main program is located in the Arduino file "WebMonitor_1-3.ino".
@@ -93,6 +106,19 @@ The files "ESP_Settings.h" and "ESP_Settings.cpp" represent the ESP8266 website 
 The files "ILI9341_Graphic.h" and "ILI9341_Graphic.cpp" control the graphical representation on the LC display.
 The files "TR064_Query.h" and "TR064_Query.cpp" contain the communication routines to control the library "TR-064-SOAP-Library".
 
+In the source code there is the difficulty that in the Arduino compiler the TR-064 instance must be created before the settings can be read from the EEPROM.
+Therefore a default instance is created at the beginning:
+* TR064_Query TR_064 = TR064_Query(49000, "192.168.178.254", "admin", "");
+
+At runtime, the instance is deleted....
+* TR_064.~TR064_Query();
+
+... and re-instantiated with the EEPROM data:
+* new(&TR_064) TR064_Query(49000, sRouterIP, sTR064_User, sTR064_Password);
+
+Unfortunately this does not work under VS-Code under PlatformIO. I have not yet managed to find a solution here.
+
+<br>
 
 ## Function
 The LCD monitor shows the connection to the wifi of the router and the Internet connection.
