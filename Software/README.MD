@@ -59,6 +59,9 @@ Es gibt zwei Gitternetze, die den Upload (oben - Cyan) und Download (unten - Gr√
 Die Werte rechts neben den Gitternetze zeigen je nach Konfiguration die maximale eingestellte oder maximale reale Bandbreite.
 Zus√§tzlich wird die aktuelle Up- bzw. Download- Geschwindigkeit angezeigt.
 
+Die Funtion wurde mit den Routermodellen Fritz!Box 7490, Fritz!Box 7530 und Fritz!Box 7590 der Firma AVM getestet.
+Es sollten aber auch weitere Modelle des Herstellers funktionieren.
+
 <br>
 
 ![grafik](https://user-images.githubusercontent.com/88629497/132059430-e62f5a19-c777-447f-8e63-0b5fd90355f9.png)
@@ -128,6 +131,9 @@ When a guest access is open, an icon with two symbolized people is displayed nex
 There are two grids showing upload (top - cyan) and download (bottom - green) graphically over time (not adjusted).
 The values to the right of the grids show the maximum adjusted or maximum real bandwidth, depending on the configuration.
 In addition, the current upload or download speed is displayed.
+
+The function was tested with the router models Fritz!Box 7490, Fritz!Box 7530 and Fritz!Box 7590 from the company AVM.
+However, other models from the manufacturer should also work.
 
 <br>
 
