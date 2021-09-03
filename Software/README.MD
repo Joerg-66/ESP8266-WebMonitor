@@ -103,6 +103,9 @@ There are two grids showing upload (top - cyan) and download (bottom - green) gr
 The values to the right of the grids show the maximum adjusted or maximum real bandwidth, depending on the configuration.
 In addition, the current upload or download speed is displayed.
 
+<br>
+
+![grafik](https://user-images.githubusercontent.com/88629497/132061516-9ecd5f64-15d9-4938-a7a9-96ab74c1db56.png)
 
 
 
