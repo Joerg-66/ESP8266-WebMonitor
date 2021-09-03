@@ -46,13 +46,9 @@ Die Werte rechts neben den Gitternetze zeigen je nach Konfiguration die maximale
 Zusätzlich wird die aktuelle Up- bzw. Download- Geschwindigkeit angezeigt.
 
 <br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+
+![grafik](https://user-images.githubusercontent.com/88629497/132059430-e62f5a19-c777-447f-8e63-0b5fd90355f9.png)
+
 <br>
 <br>
 <br>
