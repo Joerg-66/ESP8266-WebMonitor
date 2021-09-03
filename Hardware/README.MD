@@ -7,7 +7,7 @@ Der Stromlaufplan:
 
 
 Das Board:
-
+![grafik](https://user-images.githubusercontent.com/88629497/132068330-f04bb45b-dc5b-46f8-8620-b2b8d2f60e1a.png)
 
 
 
