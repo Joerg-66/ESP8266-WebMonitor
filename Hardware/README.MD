@@ -9,8 +9,8 @@ Die Touch-Funktion vom Display ist zwar angeschlossen, wird aber für dieses Pro
 Der SD-Card Anschluss des Display Boards ist ebenfalls angeschlossen.
 Er war ursprünglich zum Speichern der Konfigurationsdaten vorgesehen, wird aber in diesem Projekt ebenfalls nicht genutzt.
 Die beiden LEDs inklusive ihrer Vorwiderstände wurden nur zum Debugging genutzt und haben keine richtige Funktion mehr. 
-Die Schaltung besitzt vier USB Anschlüsse mit unterschiedlichen Steckerverbindern und Ausrichtungen.
 <br>
+Die Schaltung besitzt vier USB Anschlüsse mit unterschiedlichen Steckerverbindern und Ausrichtungen.
 Sie dienen zur Spannungsversorgung des Boards. Es wird aber in der Praxis nur eine Buchse benötigt. Der Rest ist optional verfügbar.
 Sie dienen nur dazu für den jeweiligen Einbauort die beste Variante auswählen zu können.
 Man kann natürlich auch auf alle USB-Buchsen verzichten und die Schaltung über die Mini-USB Buchse des "Wemos ESP8266 D1 mini" versorgen.
@@ -21,6 +21,9 @@ Man kann natürlich auch auf alle USB-Buchsen verzichten und die Schaltung über
 ## Das Board / The board
 
 Aufbau
+<br>
+Gerber
+<br>
 Stückliste
 
 ![grafik](https://user-images.githubusercontent.com/88629497/132068330-f04bb45b-dc5b-46f8-8620-b2b8d2f60e1a.png)
