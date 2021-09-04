@@ -43,11 +43,19 @@ Of course, you can also do without all USB sockets and supply the circuit via th
 
 ## Das Board / The board
 
-Aufbau
+Die Datei "WebMonitor_1.T3001" ist mit der Software "Target 3001!" erstellt worden und beinhaltet das gesamte Hardware-Projekt, um es individuell modifizieren zu können.
+Wer das Board einfach nur nachbauen möchte, kann die Datei "WebMonitor_1_Gerber_Files.zip" an einen Leiterplattenhersteller schicken, um sich Leiterplatten fertigen zu lassen. Dabei bitte beachten, dass die einzelnen Layer vom Hersteller richtig übernommen werden können. Die Zuordnung der Dateien zu Layern kann der Datei "WebMonitor_1.Info" (in der Zip-Datei enthalten) entnommen werden. Das Layout ist 10x10cm groß, weil die meisten Hersteller bis zu dieser Größe recht günstige Leiterplatten anbieten.
 <br>
-Gerber
+
+Die Stückliste kann den Dateien "WebMonitor_1_BOM.pdf" bzw. "WebMonitor_1_BOM.xlsx" entnommen werden. Alle Teile sowie Bezugsquellen sind als Vorscläge zu sehen. Es können natürlich auch kompatible Bauteile eingesetzt werden.
 <br>
-Stückliste
+<br>
+
+The file "WebMonitor_1.T3001" has been created with the software "Target 3001!" and contains the whole hardware project to modify it individually.
+If you just want to rebuild the board, you can send the file "WebMonitor_1_Gerber_Files.zip" to a PCB manufacturer to have PCBs made. Please note that the individual layers can be taken over correctly by the manufacturer. The assignment of the files to layers can be taken from the file "WebMonitor_1.Info" (included in the zip file). The layout is 10x10cm because most manufacturers offer quite cheap PCBs up to this size.
+<br>
+
+The parts list can be found in the files "WebMonitor_1_BOM.pdf" or "WebMonitor_1_BOM.xlsx". All parts as well as sources of supply are to be seen as suggestions. Of course, compatible parts can also be used.
 
 ![grafik](https://user-images.githubusercontent.com/88629497/132068330-f04bb45b-dc5b-46f8-8620-b2b8d2f60e1a.png)
 
