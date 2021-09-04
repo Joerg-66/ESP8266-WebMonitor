@@ -22,6 +22,7 @@ Sie dienen nur dazu für den jeweiligen Einbauort die beste Variante auswählen 
 Man kann natürlich auch auf alle USB-Buchsen verzichten und die Schaltung über die Mini-USB Buchse des "Wemos ESP8266 D1 mini" versorgen.
 <br>
 <br>
+
 The schematic is very simple. Basically only a display module "TJCTM24028-SPI" is connected to the board "Wemos ESP8266 D1 mini".
 <br>
 The touch function from the display is connected but not used for this project.
