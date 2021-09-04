@@ -38,7 +38,8 @@ Of course, you can also do without all USB sockets and supply the circuit via th
 <br>
 
 ![grafik](https://user-images.githubusercontent.com/88629497/132067967-2f39bc58-325b-4394-a611-8a7c63af4411.png)
-
+<br>
+<br>
 
 ## Das Board / The board
 
