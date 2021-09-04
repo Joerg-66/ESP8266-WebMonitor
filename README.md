@@ -6,12 +6,18 @@ Zwar hatte mein derzeitiger Router, eine Fritz!Box 7490, eine Übersicht darübe
 Die Idee war es einen ESP8266 Controller per WLAN an den Router zu koppeln und die benötigten Informationen per TR-064 Protokoll auszulesen.
 Daraus ist dieses kleine Hard- und Softwareprojekt hervorgegangen.
 <br>
+***Es wurde mit den Routermodellen Fritz!Box 7490, Fritz!Box 7530 und Fritz!Box 7590 der Firma AVM getestet, sollte aber auch mit anderen Modellen des Herstellers funktionieren.***
+<br>
+<br>
 
 In the first Covid-19 lockdown 2020 in Germany, I had a very slow Internet access and was temporarily in the home office.
 With problems in video conferences, I wanted to know the root of the cause and know what the current network load to the Internet was.
 Although my current router, a Fritz!Box 7490, had an overview of this on an internal website, I wanted to have the information displayed independently of the browser.
 The idea was to connect an ESP8266 controller via wifi to the router and read out the needed information via TR-064 protocol.
 This tiny hardware and software project was the result.
+<br>
+***It was tested with the router models Fritz!Box 7490, Fritz!Box 7530 and Fritz!Box 7590 from the company AVM, but should also work with other models of the manufacturer.***
+<br>
 <br>
 <br>
 <br>
